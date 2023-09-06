@@ -1,0 +1,11 @@
+name: WorkbenchExplosion
+version: '1.0'
+main: org.workbenchexplosion.Main
+api-version: '1.19'
+load: STARTUP
+authors: [NJFU_xiaoyu01]
+website: https://github.com/xiaoyu-success
+commands:
+  wbe:
+    description: '设置工作台爆炸延时和插件开关'
+    usage: '/wbe set <秒数> | on | off'
